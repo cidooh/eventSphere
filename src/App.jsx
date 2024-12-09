@@ -1,14 +1,11 @@
-import Nav from "./components/Nav"
-import Footer from "./components/Footer"
-import Home from "./pages/Home"
+import Router from "./components/Router"
 function App() {
 
 
   return (
     <>
-    <Nav/>
-    <Home/>
-    <Footer/>
+    <Router/>
+
     </>
   )
 }

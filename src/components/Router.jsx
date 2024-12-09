@@ -7,8 +7,8 @@ function Router(){
     return(
         <BrowserRouter>
         <Routes>
-        <Route path="/home" element={<Layout><Home/></Layout>}/>
-<Route path="/*" element={<Layout><Notfound/></Layout>}/>
+        <Route path="/" element={<Layout><Home/></Layout>}/>
+<Route path="*" element={<Layout><Notfound/></Layout>}/>
         </Routes>
         </BrowserRouter>
     )
