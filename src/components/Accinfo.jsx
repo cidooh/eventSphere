@@ -15,8 +15,8 @@ function Accinfo(){
 <div className=" ">
 <FaCircleUser className="text-[#D9D9D9] h-[150px] w-[150px]" />
 </div>
-<div className="h-[30px] w-[30px] border-2 rounded-full">
-    <IoCameraSharp className="mx-[50%] "/>
+<div className="h-[30px] w-[30px] border-2 rounded-full -mt-10 ml-28">
+    <IoCameraSharp className="mx-[50%]  "/>
 </div>
 <div>
     <Profileinfo/>

@@ -7,11 +7,11 @@ function Contactdetails(){
            </div>
 
             <div className="flex flex-col p-5">
-                <p>Phone Number:</p><input type="text" placeholder="Enter phone number" className="border-2 rounded-md"/>
-            <p>Address :</p> <input type="text" placeholder="Enter Address" className="border-2 rounded-md" />
-            <p>City/Town:</p>  <input type="text" placeholder="Enter city" className="border-2 rounded-md" />
-            <p>Country:</p><input type="text" placeholder="Enter country" className="border-2 rounded-md" />
-            <p>Pincode:</p><input type="text" placeholder="Enter pincode" className="border-2 rounded-md" />
+                <p className="text-center p-3">Phone Number:</p><input type="text" placeholder="Enter phone number" className="border-2 rounded-md p-2"/>
+            <p className="text-center p-3">Address :</p> <input type="text" placeholder="Enter Address" className="border-2 rounded-md p-2" />
+            <p className="text-center p-3">City/Town:</p>  <input type="text" placeholder="Enter city" className="border-2 rounded-md p-2" />
+            <p className="text-center p-3">Country:</p><input type="text" placeholder="Enter country" className="border-2 rounded-md p-2" />
+            <p className="text-center p-3">Pincode:</p><input type="text" placeholder="Enter pincode" className="border-2 rounded-md p-2" />
             </div>
         </div>
     )
