@@ -1,6 +1,6 @@
-function Event1(){
+function Event2(){
     return(
-<div>
+
 <div>
             <div className="w-[350px]">
                 <img src="src/assets/images/Christmas poster.png" alt="" className="rounded-xl"/>
@@ -15,7 +15,7 @@ function Event1(){
             </div>
             </div>
         </div>
-</div>
+
     )
 }
-export default Event1
+export default Event2
