@@ -33,6 +33,15 @@ function Home(){
     <div><Onlineevent/>
     </div>
 </div>
+<div>
+    <button className="border-2"> See More </button> 
+</div>
+<div className="bg-[#C4C4C4] ">
+    <h2>Events specially curated for you!</h2>
+<p>Get event suggestions tailored to your interests! Don't let your favorite events slip away.</p>
+<button>Get Started</button>
+</div>
+
         </div>
     )
 }
