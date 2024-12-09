@@ -1,6 +1,7 @@
 import Explore from "../components/Explore"
 import EventCategory from "../components/Eventcategory"
 import Popularevents from "../components/Popularevents"
+import Onlineevent from "../components/Onlineevent"
 
 function Home(){
     return(
@@ -27,8 +28,10 @@ function Home(){
     <Popularevents/>
 </div>
 
-<div>
-    <h2>Discover Best of Online Events</h2>
+<div className="mt-5">
+    <h2 className="text-2xl font-bold">Discover Best of Online Events</h2>
+    <div><Onlineevent/>
+    </div>
 </div>
         </div>
     )
