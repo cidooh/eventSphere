@@ -1,7 +1,7 @@
 function Eventdetails(){
     return(
-        <div>
-            <div className="text-2xl mt-5 text-center">
+        <div className="">
+            <div className="text-2xl mt-10">
             <h2>Event Details</h2>
             </div>
             <div className="flex items-center gap-20 p-2">
@@ -14,7 +14,7 @@ function Eventdetails(){
             </div>
 
             <div>
-                <div className="text-2xl text-center p-4">
+                <div className="text-2xl p-3">
                 <p>Date & Time</p>
                 </div>
                 <div className="flex gap-3">
@@ -44,7 +44,7 @@ function Eventdetails(){
        </div>
 
        <div>
-                <p className="text-center text-2xl p-2">Location</p>
+                <p className="text-2xl p-2">Location</p>
                 <div className="flex items-center gap-4">
                     <p>Where will your<span className="text-red-500">*</span> <br/>event take place?</p>
                     <select className="w-[200px] border-2 h-10 rounded-sm " multiple>
@@ -57,7 +57,7 @@ function Eventdetails(){
             </div>
 
             <div>
-                <p className="text-2xl text-center p-5">Additional Information</p>
+                <p className="text-2xl  p-5">Additional Information</p>
 <div className="p-3">
     <p>Event Description<span className="text-red-500">*</span></p>
     <textarea className="border border-gray-500 p-4" name="" id="" cols="50" rows="10" placeholder="Describe what's special about your event & other important details."></textarea>
