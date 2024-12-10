@@ -9,7 +9,7 @@ import Subscribe from "../components/Subscribe";
 
 function Home(){
     return(
-        <div className="container mx-auto">
+        <div className="container mx-auto mt-32">
 <div>
     <img className="absolute w-[550px] " src="s" alt="bg image" />
     <h2 className="text-3xl font-bold text-white relative ">Don't miss out!<br/> Explore the <span className="text-[#FFB61D] ">vibrant events</span> hapenning locally & Globally </h2>

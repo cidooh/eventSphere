@@ -5,7 +5,7 @@ function Online3(){
     return(
         <div>
         <div className="w-[350px]">
-                     <img src="src/assets/images/Linkidn.png" alt="" className="rounded-xl"/>
+                     <img src="src/assets/images/Linkidn.png" alt="" className="rounded-xl hover:rotate-6"/>
                  </div>
                  <div className="flex gap-10">
                  <div className="font-bold">JAN <br/> 13</div>

@@ -3,7 +3,7 @@ function Event2(){
 
 <div>
             <div className="w-[350px]">
-                <img src="src/assets/images/Christmas poster.png" alt="" className="rounded-xl"/>
+                <img src="src/assets/images/Christmas poster.png" alt="" className="rounded-xl hover:rotate-3"/>
             </div>
             <div className="flex gap-10">
             <div className="font-bold">DEC <br/> 20</div>

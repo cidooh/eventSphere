@@ -5,7 +5,7 @@ function Online2(){
     return(
         <div>
         <div className="w-[350px]">
-                     <img src="src/assets/images/Easy cooking.png" alt="" className="rounded-xl"/>
+                     <img src="src/assets/images/Easy cooking.png" alt="" className="rounded-xl hover:rotate-6"/>
                  </div>
                  <div className="flex gap-10">
                  <div className="font-bold">DEC <br/> 12</div>
