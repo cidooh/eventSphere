@@ -1,7 +1,11 @@
 import { FcGoogle } from "react-icons/fc";
+import React, {useState } from "react"
 
 
 function Loginright(){
+
+    const [error,setError]=useState({})
+
     return(
         <div className="bg-white mt-24 rounded-lg min-h-screen w-[70pc]">
             <div className="ml-[20%]">
@@ -15,10 +19,10 @@ function Loginright(){
 
 <div className="ml-[20%]">
     <p>Email Address</p>
-    <input type="email" placeholder="Enter your e-mail" className="p-4 border-2 w-[500px]"/>
+    <input name="email" type="email" placeholder="Enter your e-mail" className="p-4 border-2 w-[500px]"/>
 
 <p>Password</p>
-<input type="password"placeholder="Enter Password" className="border-2 p-4 w-[500px] mt-10"/>
+<input name="password" type="password"placeholder="Enter Password" className="border-2 p-4 w-[500px] mt-10"/>
 </div>
 
 <button className="p-4 mt-10 border-2 w-[200px] rounded-2xl text-xl bg-[#2B293D] text-white ml-[20%] ">Login</button>

@@ -3,7 +3,7 @@ import Accinfo from "../components/Accinfo"
 
 function Profile(){
     return(
-        <div className="flex">
+        <div className="flex mt-20">
             <Accsetting/>
     <Accinfo/>
         </div>

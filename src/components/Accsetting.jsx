@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Accsetting(){
     return(
 <div className="bg-[#EEEEEE] h-[100vh] p-5">
@@ -7,7 +9,7 @@ function Accsetting(){
 
     <div>
         <ul className="p-5">
-            <li>Account Info</li>
+           <Link to="/profile"> <li>Account Info</li></Link>
             <li>Password</li>
         </ul>
     </div>
