@@ -5,6 +5,7 @@ import Layout from "../pages/Layout"
 import Profile from "../pages/Profile"
 import Createevent from "../pages/Createevent"
 import Login from "../pages/Login"
+import Signup from "../pages/Signup"
 
 function Router(){
     return(
@@ -15,6 +16,7 @@ function Router(){
 <Route path="/profile" element={<Layout><Profile/></Layout>}/>
 <Route path="/login" element={<Layout><Login/></Layout>}/>
 <Route path="/create" element={<Layout><Createevent/></Layout>}/>
+<Route path="/signup" element={<Layout><Signup/></Layout>}/>
         </Routes>
         </BrowserRouter>
     )
