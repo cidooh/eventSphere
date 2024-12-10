@@ -5,6 +5,7 @@ import Onlineevent from "../components/Onlineevent"
 import { FaArrowRight } from "react-icons/fa6";
 import { FaRegCalendarPlus } from "react-icons/fa6";
 import Subscribe from "../components/Subscribe";
+import { Link } from "react-router-dom";
 
 
 function Home(){
@@ -54,7 +55,7 @@ function Home(){
     </div>
     <div className="flex ml-[40%] ">
     
-        <button className="bg-[#FFE047] flex p-3 items-center rounded-md"> <FaRegCalendarPlus />Create Event</button>
+       <Link to="/create"> <button className="bg-[#FFE047] flex p-3 items-center rounded-md"> <FaRegCalendarPlus />Create Event</button></Link>
     </div>
 </div>
 <div>
