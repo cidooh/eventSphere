@@ -17,7 +17,7 @@ function Nav2(){
                    <Link to="/create" ><li>Create Event</li></Link>
                   <div className="flex flex-col">
                    <IoTicketOutline/>
-                    <p>Tickets</p>
+                   <Link to="/ticket"> <p>Tickets</p></Link>
                   </div>
 
                   <div className="flex flex-col">

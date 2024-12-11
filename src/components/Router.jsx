@@ -8,6 +8,8 @@ import Createevent from "../pages/Createevent"
 import Login from "../pages/Login"
 import Signup from "../pages/Signup"
 import Eventpage from "../pages/Eventpage"
+import Tickets from "../pages/Tickets"
+import Ticketattendee from "./Ticketattendee"
 
 function Router(){
     return(
@@ -19,6 +21,8 @@ function Router(){
 <Route path="/create" element={<Layout><Createevent/></Layout>}/>
 <Route path="/signup" element={<Layout><Signup/></Layout>}/>
 <Route path="/event" element={<Layout><Eventpage/></Layout>}/>
+<Route path="/ticket" element={<Layout2><Tickets/></Layout2>}/>
+<Route path="/attendee" element={<Layout2><Ticketattendee/></Layout2>}/>
 <Route path="*" element={<Layout><Notfound/></Layout>}/>
 
         </Routes>

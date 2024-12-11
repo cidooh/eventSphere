@@ -3,6 +3,7 @@ import { GoStar } from "react-icons/go";
 import { CiCalendarDate } from "react-icons/ci";
 import { FaRegClock } from "react-icons/fa";
 import { IoTicketOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 
 
@@ -26,7 +27,7 @@ function Eventsdatetime(){
     <div className="flex gap-5"><FaRegClock className="w-[25px] h-[25px]"/> <p>6:30 PM - 9:30 PM</p></div>
 </div>
 <div>
-    <button className="bg-[#FFE047] flex items-center p-3 rounded-xl text-2xl"><IoTicketOutline/>Buy Tickets</button>
+   <Link to="/ticket"><button className="bg-[#FFE047] flex items-center p-3 rounded-xl text-2xl"><IoTicketOutline/>Buy Tickets</button></Link>
 </div>
 
 </div>
