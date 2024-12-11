@@ -12,13 +12,14 @@ function Home(){
     return(
         <div className="container mx-auto mt-32">
 <div>
-    <img className="absolute w-[550px] " src="s" alt="bg image" />
-    <h2 className="text-3xl font-bold text-white relative ">Don't miss out!<br/> Explore the <span className="text-[#FFB61D] ">vibrant events</span> hapenning locally & Globally </h2>
-<input type="search" placeholder="Search Events, Categories,Location..." />
-
+    <img className="w-[100%] h-[450px] bg-[rgba(0,0,0.5,0.5)]" src="src/assets/images/party image.jpg" alt="bg image" />
+    <h2 className="text-6xl font-bold text-white mt-[-300px] ml-[20%]">Don't miss out!<br/> Explore the <span className="text-[#FFB61D] ">vibrant events</span> hapenning locally & Globally. </h2>
+<input type="search" placeholder="Search Events, Categories,Location..." className="ml-[25%] p-4 mt-10 w-[500px] rounded-lg" />
 </div>
+
+
 <div>
-    <div className="font-bold text-3xl">
+    <div className="font-bold text-3xl mt-28">
         <h2>Explore Categories</h2>
     </div>
     <Explore/>
