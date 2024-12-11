@@ -6,7 +6,7 @@ function Contactdetails(){
             <p>These details are private and only used to contact you for ticketing or prizes.</p>
            </div>
 
-            <div className="flex flex-col p-5">
+            <div className="flex flex-col p-5 border shadow-xl">
                 <p className="text-center p-3">Phone Number:</p><input type="text" placeholder="Enter phone number" className="border-2 rounded-md p-2"/>
             <p className="text-center p-3">Address :</p> <input type="text" placeholder="Enter Address" className="border-2 rounded-md p-2" />
             <p className="text-center p-3">City/Town:</p>  <input type="text" placeholder="Enter city" className="border-2 rounded-md p-2" />

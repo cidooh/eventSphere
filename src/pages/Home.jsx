@@ -44,7 +44,7 @@ function Home(){
 <div className="bg-[#C4C4C4] text-center p-10">
     <h2>Events specially curated for you!</h2>
 <p>Get event suggestions tailored to your interests! Don't let your favorite events slip away.</p>
-<button className="bg-[#2B293D] text-[#FFE047] flex items-center ml-[40%] p-3 rounded-md ">Get Started <FaArrowRight />
+<button className="bg-[#2B293D] text-[#FFE047] flex items-center ml-[40%] p-3 rounded-md hover:scale-110 mt-3 ">Get Started <FaArrowRight />
 </button>
 </div>
 
@@ -55,7 +55,7 @@ function Home(){
     </div>
     <div className="flex ml-[40%] ">
     
-       <Link to="/create"> <button className="bg-[#FFE047] flex p-3 items-center rounded-md"> <FaRegCalendarPlus />Create Event</button></Link>
+       <Link to="/create"> <button className="bg-[#FFE047] flex p-3 items-center rounded-md hover:scale-110 mt-3"> <FaRegCalendarPlus />Create Event</button></Link>
     </div>
 </div>
 <div>

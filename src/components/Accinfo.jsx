@@ -26,8 +26,8 @@ function Accinfo(){
 <div>
     <Contactdetails/>
 </div>
-<div className="ml-[40%] ">
-    <button className="bg-[#2B293D] text-white p-3 rounded-lg">Save My Profile</button>
+<div className="ml-[40%] mt-10 ">
+    <button className="bg-[#FFE047] shadow-xl font-bold hover:scale-110 transition-transform p-3 rounded-lg">Save My Profile</button>
 </div>
         </div>
     )
