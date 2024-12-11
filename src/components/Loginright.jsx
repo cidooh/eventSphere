@@ -1,5 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
 import React, {useState } from "react"
+import { Link } from "react-router-dom";
 
 
 function Loginright(){
@@ -31,16 +32,18 @@ console.log(errors)
    <h1 className="p-6 text-center">OR</h1>  
 </div>
 
+<div className="border-2 shadow-xl w-[45vw] h-[50vh] p-5">
 <div className="ml-[20%]">
-    <p>Email Address</p>
+    <p className="text-xl">Email Address</p>
     <input name="email" type="email" placeholder="Enter your e-mail" className={`p-4 border-2 w-[500px] ${error.email ? "border-red-500" : "border-gray-400" }`} onChange={(e)=>handleChange(e)} value={formData.email && formData.email}/>
 
-<p className="mt-10">Password</p>
+<p className="mt-10 text-xl">Password</p>
 <input name="password" type="password"placeholder="Enter Password" className={`border-2 p-4 w-[500px] ${error.password ? "border-red-500" : "border-grey-400"}`} onChange={(e)=>handleChange(e)}/>
 </div>
 
-<button className="p-4 mt-10 border-2 w-[200px] rounded-2xl text-xl bg-[#2B293D] text-white ml-[20%] " onClick={handleLogin}>Login</button>
-<p className=" ml-[20%] p-4">Dont have an account?Sign up</p>
+<button className="p-4 mt-10 border-2 w-[200px] rounded-2xl text-xl bg-[#2B293D] text-white ml-[30%] hover:scale-110" onClick={handleLogin}>Login</button>
+<p className=" ml-[20%] p-4">Dont have an account?<Link to="/signup">Sign up</Link></p>
+</div>
 </div>
         </div>
     )

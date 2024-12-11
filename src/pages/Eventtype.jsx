@@ -16,10 +16,10 @@ function Eventtype(){
 <div>
     <div className="text-center border-2 p-4 mt-20">
     <div className="h-[200px] w-[200px] border-2 border-black p-3 rounded-full ">
-        <h1 className="text-center mt-20 text-2xl font-bold">Free</h1>
+        <h1 className="text-center mt-16 text-6xl font-bold font-mono ">Free</h1>
     </div>
     <div className="p-4 text-center">   
-    <p>Free Event</p>
+    <p className="text-2xl font-bold">Free Event</p>
     <p>I'm running a free event</p>
     </div>
 

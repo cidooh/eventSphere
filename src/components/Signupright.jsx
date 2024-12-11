@@ -1,4 +1,5 @@
 import React,{useState} from "react"
+import { Link } from "react-router-dom"
 
 
 function Signupright(){
@@ -32,7 +33,7 @@ function handleSignUp(){
    
 </div>
 
-<div className="ml-[20%] text-xl p-5">
+<div className="ml-[20%] text-xl p-5 border-2 w-[35vw] shadow-xl items-center">
     <p className="p-4">Full Name</p>
     <input name="fullName" type="text" placeholder="Enter your full name" className={`p-4 border-2 w-[500px] ${error.fullName ? "border-red-500" : "border-gray-400"}`}/>
 
@@ -49,8 +50,8 @@ function handleSignUp(){
 
 
 
-<button className="p-4 border-2 w-[200px] rounded-2xl text-xl bg-[#2B293D] text-white ml-[20%] mt-10" onClick={handleSignUp}>Create Account</button>
-<p className="ml-[20%] p-7">Already have an account?Sign in</p>
+<button className="p-4 border-2 w-[200px] rounded-2xl text-xl bg-[#2B293D] text-white ml-[20%] mt-10 hover:scale-110" onClick={handleSignUp}>Create Account</button>
+<p className="ml-[20%] p-7 text-xl">Already have an account? <span className="hover:text-[#FFE047]"><Link to="/login">Sign in</Link></span></p>
 </div>
         </div>
     )

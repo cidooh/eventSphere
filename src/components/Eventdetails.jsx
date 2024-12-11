@@ -1,3 +1,5 @@
+
+
 function Eventdetails(){
     return(
         <div className="">
@@ -37,7 +39,7 @@ function Eventdetails(){
             <div className="border-2 border-black"><input type="date" /></div>
             </div>
 
-            <div className="flex gap-2 p-2 flex-col ">
+            <div className="flex gap-2 p-2 flex-col">
             <div> <p>Start Time<span className="text-red-500">*</span> </p></div>
             <div className="border-2 border-black"> <input type="time" placeholder="12:00" /></div>
             </div>    
