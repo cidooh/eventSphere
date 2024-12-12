@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Nav(){
     return(
         <div className="bg-[#2B293D] fixed w-full">
-            <nav className="flex justify-between ml-10">
+            <nav className="flex justify-between ml-10  container mx-auto">
                 
                 <Link to="/"> <h2 className="font-bold text-3xl text-white p-3">event<span className="text-yellow-400">S</span>phere</h2></Link>
                 

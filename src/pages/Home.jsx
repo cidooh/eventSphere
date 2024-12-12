@@ -8,7 +8,7 @@ import Subscribe from "../components/Subscribe";
 import { Link } from "react-router-dom";
 
 
-function Home(){
+function Home({event, setEvent}){
     return(
         <div className="container mx-auto mt-32">
 <div>
@@ -31,7 +31,7 @@ function Home(){
     <EventCategory/>
 </div>
 <div>
-    <Popularevents/>
+    <Popularevents event={setEvent} setEvent={setEvent}/>
 </div>
 
 <div className="mt-5">

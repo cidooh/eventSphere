@@ -8,9 +8,9 @@ function Accsetting(){
     </div>
 
     <div>
-        <ul className="p-5">
-           <Link to="/profile"> <li>Account Info</li></Link>
-            <li>Password</li>
+        <ul className="p-10 text-3xl ">
+           <Link to="/profile"> <li className="hover:bg-white w-full">Account Info</li></Link>
+            <li className="mt-10 hover:bg-white">Password</li>
         </ul>
     </div>
 </div>

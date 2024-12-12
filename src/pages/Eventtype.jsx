@@ -5,7 +5,7 @@ function Eventtype(){
     return(
         <div className="mt-10">
 <p className="text-2xl">What type of event are you running?</p>
-<div className="border-2 p-3 text-center">
+<div className="border-2 p-3 text-center hover:scale-110">
     <div className="">
 <IoTicketOutline className="w-[400px] h-[200px]"/>
 </div>
@@ -14,7 +14,7 @@ function Eventtype(){
 </div>
 
 <div>
-    <div className="text-center border-2 p-4 mt-20">
+    <div className="text-center border-2 p-4 mt-20 hover:scale-110">
     <div className="h-[200px] w-[200px] border-2 border-black p-3 rounded-full ">
         <h1 className="text-center mt-16 text-6xl font-bold font-mono ">Free</h1>
     </div>

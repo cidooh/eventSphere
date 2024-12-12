@@ -15,10 +15,12 @@ function Accinfo(){
 <div className=" ">
 <FaCircleUser className="text-[#D9D9D9] h-[150px] w-[150px]" />
 </div>
-<div className="h-[30px] w-[30px] border-2 rounded-full -mt-10 ml-28">
+<div className="h-[40px] w-[40px] border-2 rounded-full -mt-10 ml-28">
     
-    <input type="file" />
-    <IoCameraSharp className="mx-[50%]  "/>
+    <label >
+    <input type="file" className="hidden" id="profile"/>
+    <IoCameraSharp className="-ml-1 text-3xl" for="profile" />
+    </label>
 </div>
 <div className="mt-5">
     <Profileinfo/>
